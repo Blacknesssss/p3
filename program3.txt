@@ -1,0 +1,18 @@
+Michael Curtis
+11/27/17
+CS 371
+Program 3
+
+Changes/Errors in IglooScore1
+
+  In overallScore() function: 
+    -I changed the first "if" condition to pick the lower of the two scores instead of the highest score.
+
+Changes/Errors in IglooScore2
+
+  In overallScore() function:
+    -In the first elseif() statement, set s2 to score3 to get to proper highest score.
+    -In the else{} statement, changed the score to be set to one of the three scores since this case
+     is only picked when all the scores are equivalent.
+  In main() function
+    -took out the case for null checking since it is not necessary.
